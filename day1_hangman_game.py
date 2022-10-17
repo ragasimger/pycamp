@@ -8,9 +8,8 @@ words_ = [
     'simulation',
     'learning',
 ]
-# extracting the word from random guessed index number of list
+# extracting the word from random method
 random_word = random.choice(words_)
-print(random_word)
 
 # generating the total count for guess
 lives = len(random_word)
